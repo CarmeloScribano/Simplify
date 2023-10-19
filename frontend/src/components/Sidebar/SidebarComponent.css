@@ -1,0 +1,35 @@
+.side-menu {
+    height: 96vh;
+    width: 15vw;
+    margin: 2vh 1vw 2vh 1vw;
+    padding: 5vh 0vw 0vh 0vw;
+    background-color: var(--custom-white);
+
+    animation: fadeInAnimationLeft;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.user-picture {
+    height: 6vw;
+    width: 6vw;
+    clip-path: circle();
+}
+
+.sidemenu-links{
+    color: var(--custom-grey);
+    text-decoration: none;
+}
+
+#tip-of-the-day {
+    opacity: 100;
+    transition: 0.2s;
+}
+
+@media screen and (max-height: 740px) {
+    #tip-of-the-day {
+        opacity: 0;
+        transition: 0.2s;
+    }
+}

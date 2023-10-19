@@ -1,0 +1,26 @@
+.top-banner {
+    position: relative;
+    width: 100vw;
+    height: 12vh;
+}
+
+.sidebar-container {
+    width: 17vw;
+    height: 100vh;
+}
+
+.main-container {
+    width: 83vw;
+    height: 88vh;
+    margin-top: 12vh;
+}
+
+@media screen and (max-width: 900px) {
+    .sidebar-container, .top-banner {
+        display: none;
+    }
+
+    .main-container {
+        width: 100vw;
+    }
+}
